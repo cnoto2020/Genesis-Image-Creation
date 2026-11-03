@@ -1,0 +1,133 @@
+{
+  "document_type": "genesis_art_workflow_reference",
+  "schema_version": "1.0",
+  "benchmark": "Undead Castle v14",
+  "status": "historical workflow reconstructed, not fully reproducible",
+  "reference_asset": {
+    "filename": "Undead_Castle_Genesis_160x160_Edit.png",
+    "sha256": "c63ac02cff93592b014e8f1946088d3ddb143c259db20fa6fc4f2077b98f326b",
+    "width": 160,
+    "height": 160,
+    "indexed_file_mode": "P",
+    "visible_rgb_color_count": 15,
+    "tile_positions_8x8": 400,
+    "distinct_rgb_tiles_8x8": 399,
+    "rgb_palette_observed": [
+      [
+        32,
+        35,
+        62
+      ],
+      [
+        9,
+        26,
+        49
+      ],
+      [
+        46,
+        54,
+        88
+      ],
+      [
+        7,
+        12,
+        39
+      ],
+      [
+        6,
+        2,
+        39
+      ],
+      [
+        100,
+        29,
+        164
+      ],
+      [
+        27,
+        13,
+        79
+      ],
+      [
+        51,
+        25,
+        113
+      ],
+      [
+        126,
+        71,
+        198
+      ],
+      [
+        153,
+        140,
+        185
+      ],
+      [
+        46,
+        79,
+        92
+      ],
+      [
+        89,
+        80,
+        128
+      ],
+      [
+        194,
+        200,
+        196
+      ],
+      [
+        75,
+        127,
+        119
+      ],
+      [
+        76,
+        211,
+        152
+      ]
+    ],
+    "caveat": "Observed RGB palette values are not all exact Genesis DAC ladder values; do not claim verified CRAM legality."
+  },
+  "historical_pipeline": [
+    "art direction and scene prompt",
+    "high-resolution pixel-art-style illustration",
+    "visual selection and approval",
+    "resize/crop to 160x160",
+    "indexed palette reduction",
+    "SGDK resource conversion",
+    "ROM build"
+  ],
+  "historical_unknowns": [
+    "exact original prompt",
+    "model and seed",
+    "exact source image",
+    "crop/resampling/dither code",
+    "palette mapping",
+    "v14 source build commit",
+    "emulator or hardware validation"
+  ],
+  "new_constraints": {
+    "native_canvas": [
+      160,
+      160
+    ],
+    "tile_size": [
+      8,
+      8
+    ],
+    "max_palettes_total": 4,
+    "colors_per_palette": 16,
+    "no_high_res_generation_or_downscaling": true,
+    "benchmark_quality_gate": "Undead v14",
+    "do_not_show_ironborn_until_quality_matches": true
+  },
+  "claims": {
+    "historical_method": "supported by recovered conversation and asset history",
+    "v14_visual_file_inspected": true,
+    "rom_build_retested": false,
+    "hardware_tested": false
+  }
+}
